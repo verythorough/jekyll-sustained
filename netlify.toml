@@ -1,0 +1,6 @@
+[build]
+  # The build command Netlify will use to build your site
+  command = "bundle exec jekyll build"
+  
+  # This directory to publish to Netlify's CDN after building
+  publish = "_site"
